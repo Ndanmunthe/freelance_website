@@ -1,0 +1,82 @@
+/* ===== HERO (JUMBOTRON) ===== */
+.jumbotron {
+  padding-top: 8rem;
+  background: linear-gradient(180deg, #e2edff 0%, #ffffff 100%);
+  color: #212529;
+}
+
+.jumbotron img {
+  border: 5px solid #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron h1 {
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.jumbotron p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.jumbotron .btn {
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.jumbotron .btn:hover {
+  transform: scale(1.05);
+}
+
+/* ===== SERVICES SECTION ===== */
+#services {
+  background-color: #f8f9fa;
+}
+
+#services h2 {
+  color: #0d6efd;
+}
+
+#services .card {
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#services .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.2);
+}
+
+#services i {
+  transition: transform 0.3s ease;
+}
+
+#services .card:hover i {
+  transform: scale(1.2);
+}
+
+/* ===== CONTACT ===== */
+#contact .form-label {
+  font-weight: 600;
+}
+
+#contact .btn {
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+#contact .btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  font-size: 0.95rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
